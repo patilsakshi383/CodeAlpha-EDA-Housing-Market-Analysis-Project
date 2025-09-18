@@ -1,0 +1,10 @@
+dash
+ipywidgets
+jupyter-dash
+numpy
+pandas
+plotly
+scikit-learn
+scipy
+seaborn
+matplotlib

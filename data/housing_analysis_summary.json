@@ -1,0 +1,101 @@
+{
+  "dataset_info": {
+    "total_records": 20640,
+    "total_features": 28,
+    "target_variable": "median_house_value",
+    "price_range": [
+      14999.0,
+      500001.0
+    ],
+    "mean_price": 206855.81690891474,
+    "median_price": 179700.0
+  },
+  "feature_importance": {
+    "top_5_features": [
+      "median_income",
+      "price_per_sqft",
+      "latitude",
+      "longitude",
+      "total_rooms"
+    ],
+    "combined_ranking": [
+      {
+        "Feature": "median_income",
+        "Combined_Score": 0.9899562443102604
+      },
+      {
+        "Feature": "price_per_sqft",
+        "Combined_Score": 0.42839214369817374
+      },
+      {
+        "Feature": "latitude",
+        "Combined_Score": 0.38427264431593694
+      },
+      {
+        "Feature": "longitude",
+        "Combined_Score": 0.35996456359201323
+      },
+      {
+        "Feature": "total_rooms",
+        "Combined_Score": 0.26896577053627974
+      },
+      {
+        "Feature": "population_density",
+        "Combined_Score": 0.09405576694518149
+      },
+      {
+        "Feature": "housing_median_age",
+        "Combined_Score": 0.08857362920182905
+      },
+      {
+        "Feature": "lot_size",
+        "Combined_Score": 0.07346160823512547
+      },
+      {
+        "Feature": "total_bedrooms",
+        "Combined_Score": 0.06425425914149212
+      },
+      {
+        "Feature": "bedrooms",
+        "Combined_Score": 0.03474478585320288
+      }
+    ]
+  },
+  "correlations": {
+    "strongest_positive": 0.6880752079585478,
+    "strongest_positive_feature": "median_income",
+    "top_correlations": [
+      {
+        "Feature": "median_income",
+        "Pearson_Corr": 0.6880752079585478
+      },
+      {
+        "Feature": "latitude",
+        "Pearson_Corr": -0.14416027687465924
+      },
+      {
+        "Feature": "total_rooms",
+        "Pearson_Corr": 0.13415311380656308
+      },
+      {
+        "Feature": "lot_size",
+        "Pearson_Corr": 0.10997416198852344
+      },
+      {
+        "Feature": "housing_median_age",
+        "Pearson_Corr": 0.10562341249320993
+      }
+    ]
+  },
+  "market_segments": {
+    "budget_properties": 5156,
+    "midrange_properties": 10324,
+    "premium_properties": 4128,
+    "luxury_properties": 1032
+  },
+  "outlier_analysis": {
+    "price_outliers": 1071,
+    "multivariate_outliers": 1116,
+    "outlier_percentage": 5.188953488372093
+  }
+}
